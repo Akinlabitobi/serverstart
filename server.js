@@ -13,7 +13,7 @@ const app = express();
 const port = 5000
 app.use(cors(
     {
-        origin: ["http://localhost:5173"],
+        origin: ["https://harvestersibadan.abhub.com.ng/"],
         methods: ["POST", "GET", "PUT"],
         credentials: true
     }
