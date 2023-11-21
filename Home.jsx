@@ -14,7 +14,7 @@ function Home() {
 			setAdminCount(res.data[0].admin)
 		}).catch(err => console.log(err));
 
-    axios.get('http://localhost:8081/employeeCount')
+    axios.get('https://harvestersserver.cyclic.app/employeeCount')
 		.then(res => {
 			setEmployeeCount(res.data[0].employee)
 		}).catch(err => console.log(err));
