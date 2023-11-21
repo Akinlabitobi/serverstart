@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 const con = mysql.createConnection({
-    host: "localhost",
+    host: "https://harvestersserver.cyclic.app/",
     user: "root",
     password: "",
     database: "signup"
